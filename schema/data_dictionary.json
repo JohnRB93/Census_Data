@@ -1,0 +1,568 @@
+{
+    "DIVISION": {
+        "Geographic division of residence": {
+            "7": "West South Central (South Region)",
+            "2": "Middle Atlantic (Northeast region)",
+            "4": "West North Central (Midwest region)",
+            "6": "East South Central (South region)",
+            "3": "East North Central (Midwest region)",
+            "9": "Pacific (West region)",
+            "0": "Puerto Rico",
+            "5": "South Atlantic (South region)",
+            "8": "Mountain (West region)",
+            "1": "New England (Northeast region)"
+        }
+    },
+    "SEX": {
+        "Sex of the individual": {
+            "1": "Male",
+            "2": "Female"
+        }
+    },
+
+    "AGEP": "Age of the individual",
+
+    "RAC1P": {
+        "Race detail 1": {
+            "3": "American Indian alone",
+            "1": "White alone",
+            "6": "Asian alone",
+            "9": "Two or More Races",
+            "4": "Alaska Native alone",
+            "2": "Black or African American alone",
+            "7": "Native Hawaiian and Other Pacific Islander alone",
+            "5": "American Indian and Alaska Native tribes specified; or American Indian or Alaska Native, not specified and no other races",
+            "8": "Some other race alone"
+        }
+    },
+
+    "RAC2P": {
+        "Race detail 2": {
+            "08": "Chippewa alone",
+            "09": "Choctaw alone",
+            "59": "All combinations of Asian races only",
+            "16": "Mexican American Indian alone",
+            "64": "Marshallese alone",
+            "32": "Inupiat alone",
+            "36": "Other American Indian and Alaska Native specified",
+            "42": "Cambodian alone",
+            "51": "Malaysian alone",
+            "61": "Samoan alone",
+            "68": "Two or More Races",
+            "25": "Tohono O'Odham alone",
+            "28": "All other specified American Indian tribe combinations",
+            "40": "Bhutanese alone",
+            "02": "Black or African American alone",
+            "46": "Hmong alone",
+            "49": "Korean alone",
+            "13": "Hopi alone",
+            "57": "Vietnamese alone",
+            "58": "Other Asian alone",
+            "19": "Potawatomi alone",
+            "60": "Native Hawaiian alone",
+            "26": "Yaqui alone",
+            "27": "Other specified American Indian tribes alone",
+            "29": "American Indian, tribe not specified",
+            "33": "Yup'ik alone",
+            "34": "Aleut alone",
+            "03": "Apache alone",
+            "48": "Japanese alone",
+            "15": "Lumbee alone",
+            "62": "Tongan alone",
+            "21": "Puget Sound Salish alone",
+            "66": "Other Native Hawaiian and Other Pacific Islander",
+            "24": "South American Indian alone",
+            "37": "American Indian and Alaska Native, not specified",
+            "38": "Asian Indian alone",
+            "39": "Bangladeshi alone",
+            "43": "Chinese, except Taiwanese, alone",
+            "52": "Mongolian alone",
+            "56": "Thai alone",
+            "14": "Iroquois alone",
+            "20": "Pueblo alone",
+            "23": "Sioux alone",
+            "45": "Filipino alone",
+            "07": "Chickasaw alone",
+            "50": "Laotian alone",
+            "11": "Creek alone",
+            "55": "Sri Lankan alone",
+            "63": "Chamorro alone",
+            "65": "Fijian alone",
+            "41": "Burmese alone",
+            "01": "White alone",
+            "54": "Pakistani alone",
+            "12": "Crow alone",
+            "18": "Pima alone",
+            "31": "Tlingit-Haida alone",
+            "44": "Taiwanese alone",
+            "47": "Indonesian alone",
+            "04": "Blackfeet alone",
+            "05": "Cherokee alone",
+            "53": "Nepalese alone",
+            "17": "Navajo alone",
+            "67": "Some Other Race alone",
+            "30": "Alaskan Athabascan alone",
+            "35": "Other Alaska Native"
+        }
+    },
+
+    "RAC3P": {
+        "Race detail 3": {
+            "075": "Black or African American; Native Hawaiian and Other Pacific Islander groups",
+            "018": "White; Asian Indian",
+            "022": "White; Korean",
+            "024": "White; Other Asian",
+            "029": "White; Some Other Race",
+            "037": "Black or African American; Other Pacific Islander",
+            "044": "Chinese; Filipino",
+            "064": "White; American Indian and Alaska Native; Some Other Race",
+            "077": "Filipino; Asian groups",
+            "082": "White; Black or African American; American Indian and Alaska Native; and/or Native Hawaiian and Other Pacific Islander groups; and/or Some Other Race",
+            "004": "Asian Indian alone",
+            "091": "Black or African American; Asian groups; and/or Native Hawaiian and Other Pacific Islander groups; and/or Some Other Race",
+            "012": "Chamorro alone",
+            "014": "Other Pacific Islander alone",
+            "027": "White; Samoan",
+            "039": "American Indian and Alaska Native; Asian Indian",
+            "046": "Chinese; Korean",
+            "049": "Chinese; Native Hawaiian",
+            "054": "Japanese; Korean",
+            "062": "White; Black or African American; Some Other Race",
+            "063": "White; American Indian and Alaska Native; Filipino",
+            "065": "White; Chinese; Filipino",
+            "085": "White; Chinese; Filipino; and/or Asian groups; and/or Native Hawaiian and Other Pacific Islander groups; and/or Some Other Race",
+            "084": "White; American Indian and Alaska Native; and/or Asian groups; and/or Native Hawaiian and Other Pacific Islander groups",
+            "086": "White; Chinese; and/or Asian groups; and/or Native Hawaiian and Other Pacific Islander groups; and/or Some Other Race",
+            "001": "White alone",
+            "007": "Japanese alone",
+            "093": "Asian Indian; and/or White; and/or Asian groups; and/or Native Hawaiian and Other Pacific Islander groups; and/or Some Other Race",
+            "098": "Korean; and/or Vietnamese; and/or Other Asian; and/or Native Hawaiian and Other Pacific Islander groups; and/or Some Other Race",
+            "016": "White; Black or African American",
+            "025": "White; Native Hawaiian",
+            "028": "White; Other Pacific Islander",
+            "034": "Black or African American; Japanese",
+            "041": "American Indian and Alaska Native; Some Other Race",
+            "056": "Vietnamese; Other Asian",
+            "057": "Other Asian; Other Pacific Islander",
+            "060": "White; Black or African American; American Indian and Alaska Native",
+            "068": "White; Filipino; Native Hawaiian",
+            "074": "Black or African American; Asian groups",
+            "002": "Black or African American alone",
+            "095": "Chinese; and/or Asian groups; and/or Native Hawaiian and Other Pacific Islander groups; and/or Some Other Race",
+            "011": "Native Hawaiian alone",
+            "099": "Native Hawaiian; and/or Pacific Islander groups; and/or Some Other Race",
+            "015": "Some Other Race alone",
+            "032": "Black or African American; Chinese",
+            "033": "Black or African American; Filipino",
+            "035": "Black or African American; Korean",
+            "040": "American Indian and Alaska Native; Filipino",
+            "045": "Chinese; Japanese",
+            "053": "Filipino; Some Other Race",
+            "055": "Japanese; Native Hawaiian",
+            "061": "White; Black or African American; Filipino",
+            "100": "White; and/or Black or African American; and/or American Indian and Alaska Native; and/or Asian groups; and/or Native Hawaiian and Other Pacific Islander groups; and/or Some Other Race",
+            "069": "White; Japanese; Native Hawaiian",
+            "072": "White; Chinese; Filipino; Native Hawaiian",
+            "081": "White; Black or African American; American Indian and Alaska Native; Asian groups",
+            "087": "White; Filipino; and/or Native Hawaiian and Other Pacific Islander groups; and/or Some Other Race",
+            "088": "White; Japanese; and/or Asian groups; and/or Native Hawaiian and Other Pacific Islander groups; and/or Some Other Race",
+            "006": "Filipino alone",
+            "094": "Chinese; Japanese; Native Hawaiian; and/or other Asian and/or Pacific Islander groups",
+            "096": "Filipino; and/or Asian groups; and/or Native Hawaiian and Other Pacific Islander groups; and/or Some Other Race",
+            "030": "Black or African American; American Indian and Alaska Native",
+            "042": "Asian Indian; Other Asian",
+            "047": "Chinese; Vietnamese",
+            "050": "Filipino; Japanese",
+            "052": "Filipino; Other Pacific Islander",
+            "058": "Other Asian; Some Other Race",
+            "059": "Other Pacific Islander; Some Other Race",
+            "070": "White; Other Asian; Some Other Race",
+            "076": "Asian Indian; Asian groups",
+            "078": "White; Black or African American; Asian groups",
+            "080": "White; Native Hawaiian and Other Pacific Islander groups; and/or Some Other Race",
+            "005": "Chinese alone",
+            "008": "Korean alone",
+            "090": "Black or African American; American Indian and Alaska Native; and/or Asian groups; and/or Native Hawaiian and Other Pacific Islander groups; and/or Some Other Race",
+            "092": "American Indian and Alaska Native; Asian groups; and/or Native Hawaiian and Other Pacific Islander groups; and/or Some Other Race",
+            "013": "Samoan alone",
+            "017": "White; American Indian and Alaska Native",
+            "020": "White; Filipino",
+            "023": "White; Vietnamese",
+            "031": "Black or African American; Asian Indian",
+            "036": "Black or African American; Other Asian",
+            "038": "Black or African American; Some Other Race",
+            "048": "Chinese; Other Asian",
+            "051": "Filipino; Native Hawaiian",
+            "079": "White; American Indian and Alaska Native; Asian groups",
+            "083": "White; Black or African American; and/or Asian groups; and/or Native Hawaiian and Other Pacific Islander groups; and/or Some Other Race",
+            "089": "White; Asian groups; and/or Native Hawaiian and Other Pacific Islander groups; and/or Some Other Race",
+            "009": "Vietnamese alone",
+            "019": "White; Chinese",
+            "021": "White; Japanese",
+            "067": "White; Chinese; Native Hawaiian",
+            "073": "White; Chinese; Japanese; Native Hawaiian",
+            "071": "Chinese; Filipino; Native Hawaiian",
+            "003": "American Indian and Alaska Native alone",
+            "097": "Japanese; and/or Asian groups; and/or Native Hawaiian and Other Pacific Islander groups; and/or Some Other Race",
+            "010": "Other Asian alone",
+            "026": "White; Chamorro",
+            "043": "Asian Indian; Some Other Race",
+            "066": "White; Chinese; Japanese"
+        }
+    },
+
+    "MAR": {
+        "Marital status": {
+            "1": "Married",
+            "5": "Never married or under 15 years old",
+            "3": "Divorced",
+            "2": "Widowed",
+            "4": "Separated"
+        }
+    },
+
+    "DIS": {
+        "Disability recode": {
+            "1": "With a disability",
+            "2": "Without a disability"
+        }
+    },
+
+    "LANP": {
+        "Language spoken at home": {
+            "1220": "Romanian",
+            "2030": "Min Nan Chinese",
+            "1730": "Telugu",
+            "1970": "Chinese",
+            "4565": "Chaldean Neo-Aramaic",
+            "1231": "Irish",
+            "3420": "Samoan",
+            "N": "N/A (GQ/vacant)",
+            "6800": "Aleut languages",
+            "4640": "Tigrinya",
+            "1132": "Dutch",
+            "2850": "Other languages of Asia",
+            "6839": "Ojibwa",
+            "5900": "Other Mande languages",
+            "7300": "Other Central and South American languages",
+            "7019": "Dakota languages",
+            "7032": "Muskogean languages",
+            "1450": "Gujarati",
+            "1565": "Finnish",
+            "6230": "Gbe languages",
+            "7050": "Cherokee",
+            "1000": "Jamaican Creole English",
+            "1242": "Albanian",
+            "6370": "Igbo",
+            "1130": "Yiddish",
+            "2000": "Mandarin",
+            "1273": "Bulgarian",
+            "1420": "Punjabi",
+            "2920": "Tagalog",
+            "1278": "Serbian",
+            "6500": "Other Niger-Congo languages",
+            "1170": "French",
+            "1200": "Spanish",
+            "1210": "Portuguese",
+            "1110": "German",
+            "2950": "Cebuano",
+            "5940": "Fulah",
+            "4590": "Amharic",
+            "1360": "Urdu",
+            "4880": "Other Afro-Asiatic languages",
+            "2575": "Korean",
+            "2910": "Filipino",
+            "3600": "Other Eastern Malayo-Polynesian languages",
+            "1540": "Other Indo-Iranian languages",
+            "6290": "Yoruba",
+            "4560": "Assyrian Neo-Aramaic",
+            "3500": "Tongan",
+            "4830": "Oromo",
+            "4840": "Somali",
+            "5950": "Wolof",
+            "1120": "Swiss German",
+            "1250": "Russian",
+            "1530": "Sinhala",
+            "1275": "Serbocroatian",
+            "2770": "Indonesian",
+            "1281": "Lithuanian",
+            "1277": "Croatian",
+            "6205": "Ga",
+            "4545": "Hebrew",
+            "3190": "Other Philippine languages",
+            "1175": "Cajun French",
+            "1327": "Pashto",
+            "6120": "Akan (incl. Twi)",
+            "1350": "Hindi",
+            "2160": "Burmese",
+            "5150": "Swahili",
+            "2100": "Tibetan",
+            "6795": "Other languages of Africa",
+            "7124": "Other Native North American languages",
+            "1140": "Swedish",
+            "1380": "Bengali",
+            "1134": "Afrikaans",
+            "1270": "Polish",
+            "3220": "Chamorro",
+            "1283": "Latvian",
+            "1155": "Italian",
+            "1290": "Farsi",
+            "1564": "Other Indo-European languages",
+            "1960": "Vietnamese",
+            "2560": "Japanese",
+            "1900": "Khmer",
+            "9999": "Other and unspecified languages",
+            "6300": "Edoid languages",
+            "3150": "Ilocano",
+            "3270": "Marshallese",
+            "1765": "Tamil",
+            "1125": "Pennsylvania German",
+            "2350": "Karen languages",
+            "2475": "Lao",
+            "1315": "Kurdish",
+            "1276": "Bosnian",
+            "1690": "Mongolian",
+            "1288": "Armenian",
+            "5525": "Shona",
+            "2430": "Thai",
+            "1340": "India N.E.C.",
+            "1582": "Hungarian",
+            "2270": "Chin languages",
+            "1737": "Kannada",
+            "2715": "Malay",
+            "2050": "Cantonese",
+            "1235": "Greek",
+            "1750": "Malayalam",
+            "4900": "Nilo-Saharan languages",
+            "6930": "Apache languages",
+            "6933": "Navajo",
+            "5345": "Ganda",
+            "1142": "Norwegian",
+            "1262": "Czech",
+            "1260": "Ukrainian",
+            "1274": "Macedonian",
+            "1025": "Other English-based Creole languages",
+            "1440": "Marathi",
+            "2525": "Iu Mien",
+            "1435": "Konkani",
+            "1675": "Turkish",
+            "1055": "Haitian",
+            "3350": "Chuukese",
+            "2535": "Hmong",
+            "1500": "Nepali",
+            "1069": "Kabuverdianu",
+            "7060": "Uto-Aztecan languages",
+            "4500": "Arabic",
+            "5845": "Manding languages",
+            "1263": "Slovak",
+            "1141": "Danish",
+            "3570": "Hawaiian",
+            "1292": "Dari",
+            "5645": "Other Bantu languages"
+        }
+    },
+
+    "LANX": {
+        "Language other than English spoken at home": {
+            "2": "No, speaks only English",
+            "0": "N/A (less than 5 years old)",
+            "1": "Yes, speaks another language"
+        }
+    },
+
+    "LNGI": {
+        "Limited English speaking household": {
+            "1": "At least one person in the household 14 and over speaks English only or speaks English 'very well'",
+            "0": "N/A (GQ/vacant)",
+            "2": "No one in the household 14 and over speaks English only or speaks English 'very well'"
+        }
+    },
+
+    "SMARTPHONE": {
+        "Has smartphone if yes, else does not have a smartphone": {
+            "2": "No",
+            "1": "Yes",
+            "0": "N/A (GQ/vacant)"
+        }
+    },
+
+    "TEL": {
+        "Telephone service": {
+            "1": "Yes",
+            "0": "N/A (GQ/vacant)",
+            "2": "No"
+        }
+    },
+
+    "BROADBND": {
+       "Cellular data plan for a smartphone or other mobile device": {
+            "0": "N/A (GQ/vacant/no paid access to the internet)",
+            "2": "No",
+            "1": "Yes"
+       }
+    },
+
+    "LAPTOP": {
+        "Laptop or desktop": {
+            "2": "No",
+            "0": "N/A (GQ/vacant)",
+            "1": "Yes"
+        }
+    },
+
+    "TABLET": {
+        "Tablet or other portable wireless computer": {
+            "0": "N/A (GQ/vacant)",
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+
+    "ACCESSINET": {
+        "Access to the Internet": {
+            "3": "No access to the Internet at this house, apartment, or mobile home",
+            "0": "N/A (GQ/vacant)",
+            "1": "Yes, by paying a cell phone company or Internet service provider",
+            "2": "Yes, without paying a cell phone company or Internet service provider"
+        }
+    },
+
+    "SATELLITE": {
+        "Satellite Internet service": {
+            "2": "No",
+            "0": "N/A (GQ/vacant/no paid access to the internet)",
+            "1": "Yes"
+        }
+    },
+
+    "HISPEED": {
+        "Broadband (high speed) Internet service such as cable, fiber optic, or DSL service": {
+            "2": "No",
+            "1": "Yes",
+            "0": "N/A (GQ/vacant/no paid access to the internet)"
+        }
+    },
+
+    "OTHSVCEX": {
+        "Other Internet service": {
+            "0": "N/A (GQ/vacant/no paid access to the internet)",
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+
+    "SCH": {
+        "School enrollment": {
+            "0": "N/A (less than 3 years old)",
+            "3": "Yes, private school or college or home school",
+            "1": "No, has not attended in the last 3 months",
+            "2": "Yes, public school or public college"
+        }
+    },
+
+    "SCHG": {
+        "Grade level attending": {
+            "15": "College undergraduate years (freshman to senior)",
+            "07": "Grade 5",
+            "11": "Grade 9",
+            "01": "Nursery school/preschool",
+            "05": "Grade 3",
+            "14": "Grade 12",
+            "03": "Grade 1",
+            "13": "Grade 11",
+            "09": "Grade 7",
+            "06": "Grade 4",
+            "08": "Grade 6",
+            "04": "Grade 2",
+            "10": "Grade 8",
+            "16": "Graduate or professional school beyond a bachelor's degree",
+            "02": "Kindergarten",
+            "0": "N/A (not attending school)",
+            "12": "Grade 10"
+        }
+    },
+
+    "SCHL": {
+        "Educational attainment": {
+            "16": "Regular high school diploma",
+            "01": "No schooling completed",
+            "04": "Grade 1",
+            "03": "Kindergarten",
+            "07": "Grade 4",
+            "23": "Professional degree beyond a bachelor's degree",
+            "19": "1 or more years of college credit, no degree",
+            "22": "Master's degree",
+            "10": "Grade 7",
+            "20": "Associate's degree",
+            "0": "N/A (less than 3 years old)",
+            "02": "Nursery school, preschool",
+            "21": "Bachelor's degree",
+            "08": "Grade 5",
+            "24": "Doctorate degree",
+            "06": "Grade 3",
+            "14": "Grade 11",
+            "17": "GED or alternative credential",
+            "12": "Grade 9",
+            "15": "12th grade - no diploma",
+            "13": "Grade 10",
+            "05": "Grade 2",
+            "11": "Grade 8",
+            "18": "Some college, but less than 1 year",
+            "09": "Grade 6"
+        }
+    },
+
+    "VEH": {
+        "Vehicles (1 ton or less) available": {
+            "5": "5 vehicles",
+            "2": "2 vehicles",
+            "-1": "N/A (GQ/vacant)",
+            "3": "3 vehicles",
+            "0": "No vehicles",
+            "4": "4 vehicles",
+            "1": "1 vehicle",
+            "6": "6 or more vehicles"
+        }
+    },
+
+    "COW": {
+        "Class of worker": {
+            "9": "Unemployed and last worked 5 years ago or earlier or never worked",
+            "7": "Self-employed in own incorporated business, professional practice or farm",
+            "3": "Local government employee (city, county, etc.)",
+            "8": "Working without pay in family business or farm",
+            "5": "Federal government employee",
+            "1": "Employee of a private for-profit co. or bus., or of an individual, for wages, salary, commissions",
+            "4": "State government employee",
+            "6": "Self-employed in own not incorporated business, professional practice, or farm",
+            "2": "Employee of a private not-for-profit, tax-exempt, or charitable organization",
+            "0": "N/A (less than 16 years old/NILF who last worked more than 5 years ago or never worked)"
+        }
+    },
+
+    "WKHP": "Usual hours worked per week past 12 months",
+    
+    "HINCP": "Household income (past 12 months, use ADJINC(1.042311) to adjust HINCP to constant dollars)",
+
+    "ELEP": {
+        "Electricity cost (monthly cost, use ADJHSG(1.042311) to adjust ELEP to constant dollars)": {
+            "2": "N/A (GQ/vacant/included in rent or in condo fee/no charge or electricity not used)"
+        }
+    },
+
+    "GASP": {
+        "Gas cost (monthly cost, use ADJHSG to adjust GASP to constant dollars)": {
+            "3": "N/A (GQ/vacant/included in rent or in condo fee/included in electricity payment/no charge or gas not used)"
+        }
+    },
+
+    "RNTP": "Monthly rent (use ADJHSG to adjust RNTP to constant dollars)",
+    
+    "TAXAMT": "Property taxes (yearly real estate taxes)",
+
+    "WATP": {
+        "Water cost (yearly cost, use ADJHSG to adjust WATP to constant dollars)": {
+            "2": "N/A (GQ/vacant/included in rent or in condo fee/no charge)"
+        }
+    }
+}
